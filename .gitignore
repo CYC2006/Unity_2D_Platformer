@@ -1,0 +1,31 @@
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Uu]serSettings/
+[Mm]emoryCaptures/
+
+# Rider / VS / OS
+.vscode/
+.idea/
+*.csproj
+*.sln
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+.DS_Store
+
+# Unity auto-generated
+*.unitypackage
+*.apk
+*.aab
+
+# Crash reports
+sysinfo.txt
+
+# Addressables / StreamingAssets (視需求調整)
+# Assets/StreamingAssets/*

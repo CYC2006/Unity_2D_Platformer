@@ -1,0 +1,832 @@
+fileFormatVersion: 2
+guid: 62df3d768d4d04798b819b07e0617d11
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6063638968217336737
+    second: sheet_pants_0
+  - first:
+      213: 2460896589692401627
+    second: sheet_pants_1
+  - first:
+      213: 8297025187341904624
+    second: sheet_pants_2
+  - first:
+      213: 9185593591147950217
+    second: sheet_pants_3
+  - first:
+      213: -3628428454403928070
+    second: sheet_pants_4
+  - first:
+      213: 6147868211293537467
+    second: sheet_pants_5
+  - first:
+      213: -1305031636764410737
+    second: sheet_pants_6
+  - first:
+      213: -896308041605627629
+    second: sheet_pants_7
+  - first:
+      213: 276305178677248497
+    second: sheet_pants_8
+  - first:
+      213: -2418070961101943098
+    second: sheet_pants_9
+  - first:
+      213: 3462546085228272336
+    second: sheet_pants_10
+  - first:
+      213: 1216722764898301898
+    second: sheet_pants_11
+  - first:
+      213: 4007240533438469837
+    second: sheet_pants_12
+  - first:
+      213: 5762826489398063712
+    second: sheet_pants_13
+  - first:
+      213: -2378446875407068143
+    second: sheet_pants_14
+  - first:
+      213: -4540272007478231914
+    second: sheet_pants_15
+  - first:
+      213: 8080161493171614897
+    second: sheet_pants_16
+  - first:
+      213: 9089264678747791890
+    second: sheet_pants_17
+  - first:
+      213: -5984593765169558053
+    second: sheet_pants_18
+  - first:
+      213: 3060094201677013022
+    second: sheet_pants_19
+  - first:
+      213: -1808029923709195513
+    second: sheet_pants_20
+  - first:
+      213: -541534811383486129
+    second: sheet_pants_21
+  - first:
+      213: -5741412673532207459
+    second: sheet_pants_22
+  - first:
+      213: -6183624823948445309
+    second: sheet_pants_23
+  - first:
+      213: 3152554800840496641
+    second: sheet_pants_24
+  - first:
+      213: 1326708830816606800
+    second: sheet_pants_25
+  - first:
+      213: -5788283150876597199
+    second: sheet_pants_26
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: sheet_pants_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 976
+        width: 460
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ab7fcad38f562450800000000000000
+      internalID: 6063638968217336737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sheet_pants_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 929
+        width: 460
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd7f591f86cd62220800000000000000
+      internalID: 2460896589692401627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sheet_pants_2
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 857
+        width: 113
+        height: 167
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0faabf7c274f42370800000000000000
+      internalID: 8297025187341904624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sheet_pants_3
+      rect:
+        serializedVersion: 2
+        x: 569
+        y: 905
+        width: 109
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9807a7b24b8c97f70800000000000000
+      internalID: 9185593591147950217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sheet_pants_4
+      rect:
+        serializedVersion: 2
+        x: 676
+        y: 905
+        width: 109
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aff85528b8b35adc0800000000000000
+      internalID: -3628428454403928070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sheet_pants_5
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 918
+        width: 106
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb4411cb09d915550800000000000000
+      internalID: 6147868211293537467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sheet_pants_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 882
+        width: 460
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8cb20604a893ede0800000000000000
+      internalID: -1305031636764410737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sheet_pants_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 835
+        width: 460
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31145c2c59caf83f0800000000000000
+      internalID: -896308041605627629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sheet_pants_8
+      rect:
+        serializedVersion: 2
+        x: 638
+        y: 433
+        width: 109
+        height: 474
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f188a89812a5d300800000000000000
+      internalID: 276305178677248497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sheet_pants_9
+      rect:
+        serializedVersion: 2
+        x: 745
+        y: 800
+        width: 106
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6cec4d9b549417ed0800000000000000
+      internalID: -2418070961101943098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sheet_pants_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 788
+        width: 460
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0da5374b15f6d0030800000000000000
+      internalID: 3462546085228272336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sheet_pants_11
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 741
+        width: 460
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac7f4ef78eaa2e010800000000000000
+      internalID: 1216722764898301898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sheet_pants_12
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 5
+        width: 113
+        height: 854
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc6952da8049c9730800000000000000
+      internalID: 4007240533438469837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sheet_pants_13
+      rect:
+        serializedVersion: 2
+        x: 745
+        y: 695
+        width: 106
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06278cac82ca9ff40800000000000000
+      internalID: 5762826489398063712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sheet_pants_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 77
+        width: 418
+        height: 666
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 114593a1b2f0efed0800000000000000
+      internalID: -2378446875407068143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sheet_pants_15
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 77
+        width: 113
+        height: 666
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69c3c922aa6bdf0c0800000000000000
+      internalID: -4540272007478231914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sheet_pants_16
+      rect:
+        serializedVersion: 2
+        x: 745
+        y: 590
+        width: 106
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b4b8484110822070800000000000000
+      internalID: 8080161493171614897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sheet_pants_17
+      rect:
+        serializedVersion: 2
+        x: 745
+        y: 485
+        width: 106
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 212644e711e832e70800000000000000
+      internalID: 9089264678747791890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sheet_pants_18
+      rect:
+        serializedVersion: 2
+        x: 741
+        y: 328
+        width: 106
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bdd0d06ada372fca0800000000000000
+      internalID: -5984593765169558053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sheet_pants_19
+      rect:
+        serializedVersion: 2
+        x: 845
+        y: 380
+        width: 106
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e10e03e9673a77a20800000000000000
+      internalID: 3060094201677013022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sheet_pants_20
+      rect:
+        serializedVersion: 2
+        x: 845
+        y: 275
+        width: 106
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70b690e1d5698e6e0800000000000000
+      internalID: -1808029923709195513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sheet_pants_21
+      rect:
+        serializedVersion: 2
+        x: 634
+        y: 5
+        width: 109
+        height: 356
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f49aafd45f41c78f0800000000000000
+      internalID: -541534811383486129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sheet_pants_22
+      rect:
+        serializedVersion: 2
+        x: 741
+        y: 223
+        width: 106
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9edf2db7976250b0800000000000000
+      internalID: -5741412673532207459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sheet_pants_23
+      rect:
+        serializedVersion: 2
+        x: 741
+        y: 118
+        width: 106
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 389f3402cf95f2aa0800000000000000
+      internalID: -6183624823948445309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sheet_pants_24
+      rect:
+        serializedVersion: 2
+        x: 845
+        y: 170
+        width: 106
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 106dc0f63ef10cb20800000000000000
+      internalID: 3152554800840496641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sheet_pants_25
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 36
+        width: 307
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05a923507aa696210800000000000000
+      internalID: 1326708830816606800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sheet_pants_26
+      rect:
+        serializedVersion: 2
+        x: 741
+        y: 13
+        width: 106
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1342f945423ebafa0800000000000000
+      internalID: -5788283150876597199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      sheet_pants_0: 6063638968217336737
+      sheet_pants_1: 2460896589692401627
+      sheet_pants_10: 3462546085228272336
+      sheet_pants_11: 1216722764898301898
+      sheet_pants_12: 4007240533438469837
+      sheet_pants_13: 5762826489398063712
+      sheet_pants_14: -2378446875407068143
+      sheet_pants_15: -4540272007478231914
+      sheet_pants_16: 8080161493171614897
+      sheet_pants_17: 9089264678747791890
+      sheet_pants_18: -5984593765169558053
+      sheet_pants_19: 3060094201677013022
+      sheet_pants_2: 8297025187341904624
+      sheet_pants_20: -1808029923709195513
+      sheet_pants_21: -541534811383486129
+      sheet_pants_22: -5741412673532207459
+      sheet_pants_23: -6183624823948445309
+      sheet_pants_24: 3152554800840496641
+      sheet_pants_25: 1326708830816606800
+      sheet_pants_26: -5788283150876597199
+      sheet_pants_3: 9185593591147950217
+      sheet_pants_4: -3628428454403928070
+      sheet_pants_5: 6147868211293537467
+      sheet_pants_6: -1305031636764410737
+      sheet_pants_7: -896308041605627629
+      sheet_pants_8: 276305178677248497
+      sheet_pants_9: -2418070961101943098
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
