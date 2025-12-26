@@ -139,6 +139,18 @@ namespace Platformer.Mechanics
             targetVelocity = move * maxSpeed;
         }
 
+        /// <summary>
+        /// Called by a moving platform to shift the player's physics position by the platform delta.
+        /// This updates the player's Rigidbody2D.position directly so the player follows the platform
+        /// while preserving the player's velocity and kinematic physics loop.
+        /// </summary>
+        /// <param name="delta">平台在 FixedUpdate 中的位移（world-space）</param>
+        public void ApplyPlatformMovement(Vector2 delta)
+        {
+            // body 是從 KinematicObject 繼承的 protected Rigidbody2D
+            body.position += delta;
+        }
+
         public enum JumpState
         {
             Grounded,
