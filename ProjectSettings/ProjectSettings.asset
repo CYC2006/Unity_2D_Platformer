@@ -768,11 +768,11 @@ PlayerSettings:
   captureStartupLogs: {}
   activeInputHandler: 1
   windowsGamepadBackendHint: 0
-  cloudProjectId: 68db499a-e1c6-4b0b-90a6-5296831e4a15
+  cloudProjectId: 66d0974d-2c79-4d51-b7d9-378e25c51a86
   framebufferDepthMemorylessMode: 0
   qualitySettingsNames: []
-  projectName: 2D_platform
-  organizationId: cyc2006
+  projectName: 2D_platform (1)
+  organizationId: f74134045
   cloudEnabled: 0
   legacyClampBlendShapeWeights: 0
   hmiLoadingImage: {fileID: 0}

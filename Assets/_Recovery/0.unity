@@ -2084,6 +2084,11 @@ PrefabInstance:
       propertyPath: m_Controller
       value: 
       objectReference: {fileID: 9100000, guid: 0c6b913197db1c249905c58eea4e4034, type: 2}
+    - target: {fileID: -374718248644281762, guid: cd9e708d464dc6b4597b14f11e6473f6,
+        type: 3}
+      propertyPath: playerHealth
+      value: 
+      objectReference: {fileID: 1213308515}
     - target: {fileID: 4957219821240036155, guid: cd9e708d464dc6b4597b14f11e6473f6,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2144,10 +2149,42 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6449435005934065295, guid: cd9e708d464dc6b4597b14f11e6473f6,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6449435005934065295, guid: cd9e708d464dc6b4597b14f11e6473f6,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8945703386009310792, guid: cd9e708d464dc6b4597b14f11e6473f6,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8945703386009310792, guid: cd9e708d464dc6b4597b14f11e6473f6,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 5189660427198468776, guid: cd9e708d464dc6b4597b14f11e6473f6,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 231397766}
+    - targetCorrespondingSourceObject: {fileID: 5189660427198468776, guid: cd9e708d464dc6b4597b14f11e6473f6,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 231397765}
+    - targetCorrespondingSourceObject: {fileID: 5189660427198468776, guid: cd9e708d464dc6b4597b14f11e6473f6,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 231397767}
   m_SourcePrefab: {fileID: 100100000, guid: cd9e708d464dc6b4597b14f11e6473f6, type: 3}
 --- !u!4 &231397756 stripped
 Transform:
@@ -2161,6 +2198,53 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 231397755}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &231397765
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 231397757}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd654acc1f7894a509f3420e5c9ffea6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Platformer.Mechanics.EnemyController
+  path: {fileID: 0}
+  ouch: {fileID: 0}
+--- !u!114 &231397766
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 231397757}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be4d02721cd9d4baa869d3b890cec48f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Platformer.Mechanics.AnimationController
+  minGroundNormalY: 0.65
+  gravityModifier: 1
+  velocity: {x: 0, y: 0}
+  maxSpeed: 7
+  jumpTakeOffSpeed: 7
+  move: {x: 0, y: 0}
+  jump: 0
+  stopJump: 0
+--- !u!114 &231397767
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 231397757}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ffad43bb006db4856a9c527b89b48db9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Platformer.Mechanics.Health
+  maxHP: 1
 --- !u!1 &236384355
 GameObject:
   m_ObjectHideFlags: 0
@@ -3814,6 +3898,11 @@ PrefabInstance:
       propertyPath: m_Controller
       value: 
       objectReference: {fileID: 9100000, guid: 0c6b913197db1c249905c58eea4e4034, type: 2}
+    - target: {fileID: -374718248644281762, guid: cd9e708d464dc6b4597b14f11e6473f6,
+        type: 3}
+      propertyPath: playerHealth
+      value: 
+      objectReference: {fileID: 1213308515}
     - target: {fileID: 4957219821240036155, guid: cd9e708d464dc6b4597b14f11e6473f6,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -3877,7 +3966,19 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 5189660427198468776, guid: cd9e708d464dc6b4597b14f11e6473f6,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 326030173}
+    - targetCorrespondingSourceObject: {fileID: 5189660427198468776, guid: cd9e708d464dc6b4597b14f11e6473f6,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 326030172}
+    - targetCorrespondingSourceObject: {fileID: 5189660427198468776, guid: cd9e708d464dc6b4597b14f11e6473f6,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 326030171}
   m_SourcePrefab: {fileID: 100100000, guid: cd9e708d464dc6b4597b14f11e6473f6, type: 3}
 --- !u!4 &326030163 stripped
 Transform:
@@ -3891,6 +3992,53 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 326030162}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &326030171
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 326030164}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ffad43bb006db4856a9c527b89b48db9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Platformer.Mechanics.Health
+  maxHP: 1
+--- !u!114 &326030172
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 326030164}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd654acc1f7894a509f3420e5c9ffea6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Platformer.Mechanics.EnemyController
+  path: {fileID: 0}
+  ouch: {fileID: 0}
+--- !u!114 &326030173
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 326030164}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be4d02721cd9d4baa869d3b890cec48f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Platformer.Mechanics.AnimationController
+  minGroundNormalY: 0.65
+  gravityModifier: 1
+  velocity: {x: 0, y: 0}
+  maxSpeed: 7
+  jumpTakeOffSpeed: 7
+  move: {x: 0, y: 0}
+  jump: 0
+  stopJump: 0
 --- !u!1 &331540682
 GameObject:
   m_ObjectHideFlags: 0
@@ -5746,7 +5894,7 @@ Transform:
   m_GameObject: {fileID: 519420028}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 89.88, y: 1.4, z: -9}
+  m_LocalPosition: {x: 31.22, y: -0.8, z: -9}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -26748,6 +26896,11 @@ PrefabInstance:
       propertyPath: m_Controller
       value: 
       objectReference: {fileID: 9100000, guid: 0c6b913197db1c249905c58eea4e4034, type: 2}
+    - target: {fileID: -374718248644281762, guid: cd9e708d464dc6b4597b14f11e6473f6,
+        type: 3}
+      propertyPath: playerHealth
+      value: 
+      objectReference: {fileID: 1213308515}
     - target: {fileID: 4957219821240036155, guid: cd9e708d464dc6b4597b14f11e6473f6,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -26811,7 +26964,19 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 5189660427198468776, guid: cd9e708d464dc6b4597b14f11e6473f6,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 671266354}
+    - targetCorrespondingSourceObject: {fileID: 5189660427198468776, guid: cd9e708d464dc6b4597b14f11e6473f6,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 671266353}
+    - targetCorrespondingSourceObject: {fileID: 5189660427198468776, guid: cd9e708d464dc6b4597b14f11e6473f6,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 671266352}
   m_SourcePrefab: {fileID: 100100000, guid: cd9e708d464dc6b4597b14f11e6473f6, type: 3}
 --- !u!4 &671266344 stripped
 Transform:
@@ -26825,6 +26990,53 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 671266343}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &671266352
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 671266345}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ffad43bb006db4856a9c527b89b48db9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Platformer.Mechanics.Health
+  maxHP: 1
+--- !u!114 &671266353
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 671266345}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd654acc1f7894a509f3420e5c9ffea6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Platformer.Mechanics.EnemyController
+  path: {fileID: 0}
+  ouch: {fileID: 0}
+--- !u!114 &671266354
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 671266345}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be4d02721cd9d4baa869d3b890cec48f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Platformer.Mechanics.AnimationController
+  minGroundNormalY: 0.65
+  gravityModifier: 1
+  velocity: {x: 0, y: 0}
+  maxSpeed: 7
+  jumpTakeOffSpeed: 7
+  move: {x: 0, y: 0}
+  jump: 0
+  stopJump: 0
 --- !u!1 &672778958
 GameObject:
   m_ObjectHideFlags: 0
@@ -33160,6 +33372,11 @@ PrefabInstance:
       propertyPath: m_Controller
       value: 
       objectReference: {fileID: 9100000, guid: 0c6b913197db1c249905c58eea4e4034, type: 2}
+    - target: {fileID: -374718248644281762, guid: cd9e708d464dc6b4597b14f11e6473f6,
+        type: 3}
+      propertyPath: playerHealth
+      value: 
+      objectReference: {fileID: 1213308515}
     - target: {fileID: 4957219821240036155, guid: cd9e708d464dc6b4597b14f11e6473f6,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -33223,7 +33440,19 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 5189660427198468776, guid: cd9e708d464dc6b4597b14f11e6473f6,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 818210166}
+    - targetCorrespondingSourceObject: {fileID: 5189660427198468776, guid: cd9e708d464dc6b4597b14f11e6473f6,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 818210165}
+    - targetCorrespondingSourceObject: {fileID: 5189660427198468776, guid: cd9e708d464dc6b4597b14f11e6473f6,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 818210164}
   m_SourcePrefab: {fileID: 100100000, guid: cd9e708d464dc6b4597b14f11e6473f6, type: 3}
 --- !u!1 &818210156 stripped
 GameObject:
@@ -33237,6 +33466,53 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 818210155}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &818210164
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 818210156}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ffad43bb006db4856a9c527b89b48db9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Platformer.Mechanics.Health
+  maxHP: 1
+--- !u!114 &818210165
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 818210156}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd654acc1f7894a509f3420e5c9ffea6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Platformer.Mechanics.EnemyController
+  path: {fileID: 0}
+  ouch: {fileID: 0}
+--- !u!114 &818210166
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 818210156}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be4d02721cd9d4baa869d3b890cec48f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Platformer.Mechanics.AnimationController
+  minGroundNormalY: 0.65
+  gravityModifier: 1
+  velocity: {x: 0, y: 0}
+  maxSpeed: 7
+  jumpTakeOffSpeed: 7
+  move: {x: 0, y: 0}
+  jump: 0
+  stopJump: 0
 --- !u!1 &818239623
 GameObject:
   m_ObjectHideFlags: 0
@@ -33598,11 +33874,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4520396350849616, guid: 7d60c822c3f1b408ea7a00ecdb5e047a, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 89.88
+      value: 31.22
       objectReference: {fileID: 0}
     - target: {fileID: 4520396350849616, guid: 7d60c822c3f1b408ea7a00ecdb5e047a, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.4
+      value: -0.8
       objectReference: {fileID: 0}
     - target: {fileID: 4520396350849616, guid: 7d60c822c3f1b408ea7a00ecdb5e047a, type: 3}
       propertyPath: m_LocalPosition.z
@@ -34670,6 +34946,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player - Student
       objectReference: {fileID: 0}
+    - target: {fileID: 3133499821961615315, guid: a578376bf5455a748b607de1a2e76feb,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -35083,6 +35364,11 @@ PrefabInstance:
       propertyPath: m_Controller
       value: 
       objectReference: {fileID: 9100000, guid: 0c6b913197db1c249905c58eea4e4034, type: 2}
+    - target: {fileID: -374718248644281762, guid: cd9e708d464dc6b4597b14f11e6473f6,
+        type: 3}
+      propertyPath: playerHealth
+      value: 
+      objectReference: {fileID: 1213308515}
     - target: {fileID: 4957219821240036155, guid: cd9e708d464dc6b4597b14f11e6473f6,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -35146,7 +35432,19 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 5189660427198468776, guid: cd9e708d464dc6b4597b14f11e6473f6,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1027471708}
+    - targetCorrespondingSourceObject: {fileID: 5189660427198468776, guid: cd9e708d464dc6b4597b14f11e6473f6,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1027471707}
+    - targetCorrespondingSourceObject: {fileID: 5189660427198468776, guid: cd9e708d464dc6b4597b14f11e6473f6,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1027471706}
   m_SourcePrefab: {fileID: 100100000, guid: cd9e708d464dc6b4597b14f11e6473f6, type: 3}
 --- !u!4 &1027471698 stripped
 Transform:
@@ -35160,6 +35458,53 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 1027471697}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1027471706
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1027471699}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ffad43bb006db4856a9c527b89b48db9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Platformer.Mechanics.Health
+  maxHP: 1
+--- !u!114 &1027471707
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1027471699}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd654acc1f7894a509f3420e5c9ffea6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Platformer.Mechanics.EnemyController
+  path: {fileID: 0}
+  ouch: {fileID: 0}
+--- !u!114 &1027471708
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1027471699}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be4d02721cd9d4baa869d3b890cec48f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Platformer.Mechanics.AnimationController
+  minGroundNormalY: 0.65
+  gravityModifier: 1
+  velocity: {x: 0, y: 0}
+  maxSpeed: 7
+  jumpTakeOffSpeed: 7
+  move: {x: 0, y: 0}
+  jump: 0
+  stopJump: 0
 --- !u!1 &1041724728
 GameObject:
   m_ObjectHideFlags: 0
@@ -37270,6 +37615,18 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 838423047}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1213308515 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6082575806313374961, guid: 7d60c822c3f1b408ea7a00ecdb5e047a,
+    type: 3}
+  m_PrefabInstance: {fileID: 838423047}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 838423049}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ffad43bb006db4856a9c527b89b48db9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1218445515
 GameObject:
   m_ObjectHideFlags: 0
@@ -38250,6 +38607,11 @@ PrefabInstance:
       propertyPath: m_Controller
       value: 
       objectReference: {fileID: 9100000, guid: 0c6b913197db1c249905c58eea4e4034, type: 2}
+    - target: {fileID: -374718248644281762, guid: cd9e708d464dc6b4597b14f11e6473f6,
+        type: 3}
+      propertyPath: playerHealth
+      value: 
+      objectReference: {fileID: 1213308515}
     - target: {fileID: 4957219821240036155, guid: cd9e708d464dc6b4597b14f11e6473f6,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -38313,7 +38675,19 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 5189660427198468776, guid: cd9e708d464dc6b4597b14f11e6473f6,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1322560080}
+    - targetCorrespondingSourceObject: {fileID: 5189660427198468776, guid: cd9e708d464dc6b4597b14f11e6473f6,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1322560079}
+    - targetCorrespondingSourceObject: {fileID: 5189660427198468776, guid: cd9e708d464dc6b4597b14f11e6473f6,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1322560078}
   m_SourcePrefab: {fileID: 100100000, guid: cd9e708d464dc6b4597b14f11e6473f6, type: 3}
 --- !u!4 &1322560070 stripped
 Transform:
@@ -38327,6 +38701,53 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 1322560069}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1322560078
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1322560071}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd654acc1f7894a509f3420e5c9ffea6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Platformer.Mechanics.EnemyController
+  path: {fileID: 0}
+  ouch: {fileID: 0}
+--- !u!114 &1322560079
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1322560071}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be4d02721cd9d4baa869d3b890cec48f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Platformer.Mechanics.AnimationController
+  minGroundNormalY: 0.65
+  gravityModifier: 1
+  velocity: {x: 0, y: 0}
+  maxSpeed: 7
+  jumpTakeOffSpeed: 7
+  move: {x: 0, y: 0}
+  jump: 0
+  stopJump: 0
+--- !u!114 &1322560080
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1322560071}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ffad43bb006db4856a9c527b89b48db9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Platformer.Mechanics.Health
+  maxHP: 1
 --- !u!1 &1326765013
 GameObject:
   m_ObjectHideFlags: 0
@@ -39760,6 +40181,11 @@ PrefabInstance:
       propertyPath: m_Controller
       value: 
       objectReference: {fileID: 9100000, guid: 0c6b913197db1c249905c58eea4e4034, type: 2}
+    - target: {fileID: -374718248644281762, guid: cd9e708d464dc6b4597b14f11e6473f6,
+        type: 3}
+      propertyPath: playerHealth
+      value: 
+      objectReference: {fileID: 1213308515}
     - target: {fileID: 4957219821240036155, guid: cd9e708d464dc6b4597b14f11e6473f6,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -39823,7 +40249,19 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 5189660427198468776, guid: cd9e708d464dc6b4597b14f11e6473f6,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1458419549}
+    - targetCorrespondingSourceObject: {fileID: 5189660427198468776, guid: cd9e708d464dc6b4597b14f11e6473f6,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1458419548}
+    - targetCorrespondingSourceObject: {fileID: 5189660427198468776, guid: cd9e708d464dc6b4597b14f11e6473f6,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1458419547}
   m_SourcePrefab: {fileID: 100100000, guid: cd9e708d464dc6b4597b14f11e6473f6, type: 3}
 --- !u!4 &1458419539 stripped
 Transform:
@@ -39837,6 +40275,53 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 1458419538}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1458419547
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1458419540}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ffad43bb006db4856a9c527b89b48db9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Platformer.Mechanics.Health
+  maxHP: 1
+--- !u!114 &1458419548
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1458419540}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd654acc1f7894a509f3420e5c9ffea6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Platformer.Mechanics.EnemyController
+  path: {fileID: 0}
+  ouch: {fileID: 0}
+--- !u!114 &1458419549
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1458419540}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be4d02721cd9d4baa869d3b890cec48f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Platformer.Mechanics.AnimationController
+  minGroundNormalY: 0.65
+  gravityModifier: 1
+  velocity: {x: 0, y: 0}
+  maxSpeed: 7
+  jumpTakeOffSpeed: 7
+  move: {x: 0, y: 0}
+  jump: 0
+  stopJump: 0
 --- !u!1 &1466721562
 GameObject:
   m_ObjectHideFlags: 0
@@ -40728,6 +41213,11 @@ PrefabInstance:
       propertyPath: m_Controller
       value: 
       objectReference: {fileID: 9100000, guid: 0c6b913197db1c249905c58eea4e4034, type: 2}
+    - target: {fileID: -374718248644281762, guid: cd9e708d464dc6b4597b14f11e6473f6,
+        type: 3}
+      propertyPath: playerHealth
+      value: 
+      objectReference: {fileID: 1213308515}
     - target: {fileID: 4957219821240036155, guid: cd9e708d464dc6b4597b14f11e6473f6,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -40791,7 +41281,19 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 5189660427198468776, guid: cd9e708d464dc6b4597b14f11e6473f6,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1543519489}
+    - targetCorrespondingSourceObject: {fileID: 5189660427198468776, guid: cd9e708d464dc6b4597b14f11e6473f6,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1543519488}
+    - targetCorrespondingSourceObject: {fileID: 5189660427198468776, guid: cd9e708d464dc6b4597b14f11e6473f6,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1543519487}
   m_SourcePrefab: {fileID: 100100000, guid: cd9e708d464dc6b4597b14f11e6473f6, type: 3}
 --- !u!4 &1543519479 stripped
 Transform:
@@ -40805,6 +41307,53 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 1543519478}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1543519487
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1543519480}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ffad43bb006db4856a9c527b89b48db9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Platformer.Mechanics.Health
+  maxHP: 1
+--- !u!114 &1543519488
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1543519480}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd654acc1f7894a509f3420e5c9ffea6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Platformer.Mechanics.EnemyController
+  path: {fileID: 0}
+  ouch: {fileID: 0}
+--- !u!114 &1543519489
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1543519480}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be4d02721cd9d4baa869d3b890cec48f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Platformer.Mechanics.AnimationController
+  minGroundNormalY: 0.65
+  gravityModifier: 1
+  velocity: {x: 0, y: 0}
+  maxSpeed: 7
+  jumpTakeOffSpeed: 7
+  move: {x: 0, y: 0}
+  jump: 0
+  stopJump: 0
 --- !u!1 &1546172622
 GameObject:
   m_ObjectHideFlags: 0
@@ -44539,7 +45088,7 @@ Transform:
   m_GameObject: {fileID: 1946717923}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 89.88, y: 1.4, z: -9}
+  m_LocalPosition: {x: 31.22, y: -0.8, z: -9}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -45682,6 +46231,11 @@ PrefabInstance:
       propertyPath: m_Controller
       value: 
       objectReference: {fileID: 9100000, guid: 0c6b913197db1c249905c58eea4e4034, type: 2}
+    - target: {fileID: -374718248644281762, guid: cd9e708d464dc6b4597b14f11e6473f6,
+        type: 3}
+      propertyPath: playerHealth
+      value: 
+      objectReference: {fileID: 1213308515}
     - target: {fileID: 4957219821240036155, guid: cd9e708d464dc6b4597b14f11e6473f6,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -45745,7 +46299,19 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 5189660427198468776, guid: cd9e708d464dc6b4597b14f11e6473f6,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2057776990}
+    - targetCorrespondingSourceObject: {fileID: 5189660427198468776, guid: cd9e708d464dc6b4597b14f11e6473f6,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2057776989}
+    - targetCorrespondingSourceObject: {fileID: 5189660427198468776, guid: cd9e708d464dc6b4597b14f11e6473f6,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2057776988}
   m_SourcePrefab: {fileID: 100100000, guid: cd9e708d464dc6b4597b14f11e6473f6, type: 3}
 --- !u!4 &2057776980 stripped
 Transform:
@@ -45759,6 +46325,53 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 2057776979}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &2057776988
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2057776981}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ffad43bb006db4856a9c527b89b48db9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Platformer.Mechanics.Health
+  maxHP: 1
+--- !u!114 &2057776989
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2057776981}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd654acc1f7894a509f3420e5c9ffea6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Platformer.Mechanics.EnemyController
+  path: {fileID: 0}
+  ouch: {fileID: 0}
+--- !u!114 &2057776990
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2057776981}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be4d02721cd9d4baa869d3b890cec48f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Platformer.Mechanics.AnimationController
+  minGroundNormalY: 0.65
+  gravityModifier: 1
+  velocity: {x: 0, y: 0}
+  maxSpeed: 7
+  jumpTakeOffSpeed: 7
+  move: {x: 0, y: 0}
+  jump: 0
+  stopJump: 0
 --- !u!1 &2067073108
 GameObject:
   m_ObjectHideFlags: 0
@@ -46199,6 +46812,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Knight
+      objectReference: {fileID: 0}
+    - target: {fileID: 7757444428108715845, guid: 6486176ad0095ec49b079ea1f70084c7,
+        type: 3}
+      propertyPath: range
+      value: 1.8
       objectReference: {fileID: 0}
     - target: {fileID: 7757444428108715845, guid: 6486176ad0095ec49b079ea1f70084c7,
         type: 3}

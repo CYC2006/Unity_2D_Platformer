@@ -9,7 +9,7 @@ public class EnemyDamage : MonoBehaviour
     {
         // ¦©¦å
 
-        //if (collision.tag == "Player")
-            //collision.GetComponent<Health>().TakeDamage(damage);
+        if (collision.tag == "Player")
+            collision.GetComponent<Health>().Decrement();
     }
 }
