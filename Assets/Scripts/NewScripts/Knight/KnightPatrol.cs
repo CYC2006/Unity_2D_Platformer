@@ -24,13 +24,13 @@ public class KnightPatrol : MonoBehaviour
 
     private void OnDisable()
     {
-        Debug.Log("Disable");
+        //Debug.Log("Disable");
         anim.SetBool("moving", false);
     }
 
     private void Update()
     {
-        Debug.Log("Update Patrol");
+        //Debug.Log("Update Patrol");
         if (moveingLeft)
         {
             if (enemy.position.x >= leftEdge.position.x)
