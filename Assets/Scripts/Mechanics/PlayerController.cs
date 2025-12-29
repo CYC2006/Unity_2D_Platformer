@@ -51,7 +51,7 @@ namespace Platformer.Mechanics
             health = GetComponent<Health>();
             audioSource = GetComponent<AudioSource>();
             collider2d = GetComponent<Collider2D>();
-            spriteRenderer = GetComponent<SpriteRenderer>();
+            spriteRenderer = GetComponentInChildren<SpriteRenderer>();
             animator = GetComponent<Animator>();
 
             m_MoveAction = InputSystem.actions.FindAction("Player/Move");
