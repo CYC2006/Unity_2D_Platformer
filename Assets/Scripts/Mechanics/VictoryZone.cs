@@ -15,7 +15,12 @@ namespace Platformer.Mechanics
             var p = collider.gameObject.GetComponent<PlayerController>();
             if (p != null)
             {
-                
+                // Pause the timer
+                TimerController timerController = FindAnyObjectByType<TimerController>();
+                if (timerController != null)
+                {
+                    timerController.PauseTimer();
+                }
 
                 var ev = Schedule<PlayerEnteredVictoryZone>();
                 ev.victoryZone = this;

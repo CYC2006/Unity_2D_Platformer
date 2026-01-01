@@ -7,20 +7,29 @@ using TMPro;
 
 public class TimerController : MonoBehaviour
 {
-    public TextMeshProUGUI timeText; // Reference to the Text component in the Canvas
+    public TextMeshProUGUI timeText;
+    private bool isPaused = false;
     private float elapsedTime = 0f;
 
     void Update()
     {
-        // Update elapsed time
-        elapsedTime += Time.deltaTime;
+        if (!isPaused)
+        {
+            elapsedTime += Time.deltaTime;
+            UpdateTimeText();
+        }
+    }
 
-        // Convert elapsed time to hours, minutes, and seconds
-        int hours = Mathf.FloorToInt(elapsedTime / 3600);
-        int minutes = Mathf.FloorToInt((elapsedTime % 3600) / 60);
-        int seconds = Mathf.FloorToInt(elapsedTime % 60);
+    public void PauseTimer()
+    {
+        isPaused = true;
+    }
 
-        // Update the text to display the formatted time
-        timeText.text = $"{hours:D2}:{minutes:D2}:{seconds:D2}";
+    private void UpdateTimeText()
+    {
+        int hours = Mathf.FloorToInt(elapsedTime / 3600F);
+        int minutes = Mathf.FloorToInt((elapsedTime % 3600F) / 60F);
+        int seconds = Mathf.FloorToInt(elapsedTime % 60F);
+        timeText.text = string.Format("{0:00}:{1:00}:{2:00}", hours, minutes, seconds);
     }
 }
